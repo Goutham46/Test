@@ -1,8 +1,10 @@
-let  a = 5
-let b = 6
-console.log(a+b)
+let a = 5;
+let b = 6;
+console.log(a+b);
 
 
 function substractTwoNumbers(a, b) {
     return a - b;
 }
+
+console.log('a - b = ', substractTwoNumbers(a, b));
